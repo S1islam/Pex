@@ -1,0 +1,299 @@
+/* Google Fonts */
+@import url(../fonts/MYRIADPRO-BOLD.OTF,MYRIADPRO-BOLDCOND.OTF,MYRIADPRO-BOLDIT.OTF,MYRIADPRO-COND.OTF,MYRIADPRO-REGULAR.OTF,MYRIADPRO-SEMIBOLD.OTF,MYRIADPRO-BOLDCONDIT.OTF,MYRIADPRO-CONDIT.OTF,MyriadPro-Light.otf);
+
+/* =====Global CSS===== */
+bu4ody{
+  font-family: 'MYRIADPRO', sans-serif;
+  color: #3a4d60;
+  font-size: 18px;
+}
+h1{
+
+}
+h2{
+  font-size: 34px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+}
+.start-btn{
+  padding: 15px 80px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: #8824cd;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+.start-btn:hover{
+  background: transparent;
+  border: 2px solid #fff;
+}
+/*  =====Hrader Section=======  */
+header{
+  position: relative;
+}
+header::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 5px;
+  background: #312531;
+}
+.navbar-brand img{
+  display: block;
+  padding-top: 15px;
+}
+.nav-item{
+  padding-right: 20px;
+}
+.nav-link{
+  padding: 25px 0;
+  border-radius: 0;
+  border-bottom: 3px solid transparent;
+}
+.nav-link:hover{
+  border-bottom: 3px solid #fff;
+}
+.nav-item a{
+  color: #fff;
+}
+.navbar-nav .nav-link.active{
+  color: #fff;
+}
+.nav-item a:hover{
+  color: #e7526b;
+}
+.navbar-nav .nav-link.active:hover{
+  color: #e7526b;
+}
+.form-control{
+  position: relative;
+  border-radius: 30px;
+  padding: 10px 40px 10px 20px;
+}
+.fa-magnifying-glass{
+  position: absolute;
+  right: 48px;
+  top: 39px;
+  font-size: 20px;
+  color: #b6b6b6;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+/* ======Banner Section======= */
+.banner-section{
+  padding: 200px 0;
+  background: url(../images/pexbg.png) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -104px;
+}
+.banner-one{
+  text-align: right;
+}
+.banner-one h1{
+  color: #fff;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+.banner-one p{
+  color: #fff;
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+/* ========Features Section======= */
+.features-section{
+  padding: 70px 0;
+  background: #2e3b4e;
+  color: #fff;
+}
+.features-section h3{
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.features-section p{
+  font-size: 16px; 
+}
+.features-one{
+  margin-bottom: 50px;
+}
+
+/* ======Pink Section======= */
+.pink-section{
+  padding: 70px 0;
+  background: url(../images/pink.png) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.pink-section h2{
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+.pink-section p{
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 0 290px;
+}
+.pink-section .start-btn{
+  background: #fff;
+  color: #d54c63;
+  transition: all 0.4s ease-in-out;
+}
+.pink-section .start-btn:hover{
+  background: transparent;
+  color: #fff;
+}
+
+/* =======Article Section One====== */
+.article-section-one img{
+  width: 100%;
+}
+.artical-content{
+  padding: 90px 70px;
+}
+.artical-content h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ======Experience Section======  */
+.experience-section{
+  padding: 70px 0;
+  background: url(../images/background2.png) no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.experience-section::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(75, 30, 91, .7);
+  z-index: -1;
+}
+.experience-section h2{
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+.experience-section p{
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 0 230px;
+}
+
+/* ======Coustomer Review Section====== */
+.review-section{
+  padding: 70px 0;
+  background: url(../images/background1.png) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+}
+
+.review-section .pic-btn{
+  padding: 7px 25px;
+  width: 30%;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.review-section .pic-btn:hover{
+  background: #fff;
+  color: #62833d;
+}
+.review-section h2{
+  margin: 30px 0;
+}
+.review-section h4{
+  display: inline-block;
+}
+
+/*  */
+.article-section-two{
+
+}
+.article-section-two img{
+  width: 100%;
+}
+
+/* For Notebook Device */
+ @media (min-width: 768px) and (max-width: 998px){
+  
+
+}
+
+/* For Tablet Device */
+ @media (min-width: 577px) and (max-width: 768px){
+
+}
+
+
+ /* For Mobile Device */
+  @media (min-width: 320px) and (max-width: 576px){
+    .header::after {bottom: 0;}
+    .navbar-nav {text-align: center;}
+    .nav-item {width: 120px; margin: auto;}
+    .nav-item a {color: #e7526b;}
+    .navbar-nav .nav-link.active{color: #fff;}
+    .nav-item{padding-right: 0;}
+    .nav-link{padding: 5px 0;}
+    .form-control{width: 60%; margin-left: 80px; padding: 12px; text-align: center;}
+    .fa-magnifying-glass {display: none;}
+    
+    .banner-section{padding: 335px 0 200px; height: 50vh; margin-top: -320px;}
+    .banner-one {text-align: center;}
+    .banner-one h1{line-height: 35px;margin-bottom: 20px;}
+    .banner-one .start-btn{padding: 10px 30px; margin-bottom: 10px;}
+    .banner-one p{padding-right: 0;}
+
+    .features-section{padding: 25px 0 0; text-align: center;}
+    .features-section h3{margin-bottom: 10px;}
+    .features-section p{margin-bottom: 25px;}
+    .features-one {margin-bottom: 0;}
+    
+    .pink-section{padding: 15px 0;}
+    .pink-section h2 {margin-bottom: 10px; font-size: 26px;}
+    .pink-section p {margin-bottom: 10px; font-size: 16px; padding: 0;}
+    .pink-section .start-btn{padding: 10px 20px; margin: 10px auto; font-size: 16px;}
+
+    .article-section-one {padding: 20px 0 10px; text-align: center;}
+    .artical-content h3{margin-top: 15px;}
+
+    .experience-section {padding: 20px 0 15px; text-align: center;}
+    .experience-section h2 {margin-bottom: 10px; font-size: 26px;}
+    .experience-section p {padding: 0; margin-bottom: 10px; font-size: 16px;}
+    .experience-section .start-btn {padding: 10px 20px; font-size: 16px; margin: 10px auto;}
+
+    .review-section {padding: 25px 0 10px; text-align: center;}
+    .review-section .pic-btn{width: 50%; margin: auto;}
+    .review-section h2 {margin: 10px 0; font-size: 26px;}
+    .review-section img{width: 16%;}
+
+    .article-section-two {padding: 20px 0 0;}
+    .artical-content{padding: 0; text-align: center;}
+    .article-section-two img{margin-top: 15px;}
+  }
